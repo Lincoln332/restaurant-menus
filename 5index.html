@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Restaurant Menus</title>
+  <style>
+    .menu {
+      width: 400px;
+      height: 550px;
+      padding: 20px;
+      margin: 20px auto;
+      border: 3px solid #333;
+      color: white;
+      font-family: Arial, sans-serif;
+      background-size: cover;
+      background-position: center;
+    }
+
+    #breakfast {
+      background-image: url('breakfast.jpg');
+      background-repeat: no-repeat;
+    }
+
+    #lunch {
+      background-image: url('lunch.jpg');
+      background-repeat: repeat-x;
+      background-position: center top;
+    }
+
+    #dinner {
+      background-image: url('dinner.jpg');
+      background-repeat: repeat-y;
+      background-position: center bottom;
+    }
+
+    h2 {
+      font-weight: bold;
+      text-align: center;
+      margin-bottom: 20px;
+      text-shadow: 1px 1px 2px black;
+    }
+
+    ul {
+      list-style-type: none;
+      padding-left: 0;
+      font-size: 18px;
+    }
+
+    li {
+      margin-bottom: 10px;
+    }
+  </style>
+</head>
+<body>
+  <!-- Breakfast Menu -->
+  <div id="breakfast" class="menu">
+    <h2>Breakfast Menu</h2>
+    <ul>
+      <li>Pancakes</li>
+      <li>Scrambled Eggs</li>
+      <li>Fruit Salad</li>
+      <li>Coffee</li>
+    </ul>
+  </div>
+
+  <!-- Lunch Menu -->
+  <div id="lunch" class="menu">
+    <h2>Lunch Menu</h2>
+    <ul>
+      <li>Grilled Chicken Sandwich</li>
+      <li>Caesar Salad</li>
+      <li>Tomato Soup</li>
+      <li>Iced Tea</li>
+    </ul>
+  </div>
+
+  <!-- Dinner Menu -->
+  <div id="dinner" class="menu">
+    <h2>Dinner Menu</h2>
+    <ul>
+      <li>Steak</li>
+      <li>Mashed Potatoes</li>
+      <li>Steamed Vegetables</li>
+      <li>Red Wine</li>
+    </ul>
+  </div>
+</body>
+</html>
