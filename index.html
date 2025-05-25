@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Restaurant Menus</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f7f7f7;
+      display: flex;
+      gap: 20px;
+      justify-content: center;
+      padding: 20px;
+    }
+
+    .menu {
+      width: 400px;
+      height: 550px;
+      padding: 20px;
+      margin: 10px;
+      border: 4px solid #444;
+      background-repeat: no-repeat;
+      background-position: center top;
+      background-size: cover;
+      color: white;
+      box-shadow: 3px 3px 8px rgba(0,0,0,0.4);
+      display: flex;
+      flex-direction: column;
+    }
+
+    .menu h2 {
+      margin-top: 0;
+      text-shadow: 2px 2px 5px #000;
+    }
+
+    .menu ul {
+      margin-top: 10px;
+      padding-left: 20px;
+      flex-grow: 1;
+    }
+
+    .menu li {
+      margin-bottom: 8px;
+      font-weight: bold;
+      text-shadow: 1px 1px 3px #000;
+    }
+
+    /* Background images set here */
+    #breakfast {
+      background-image: url('breakfast.jpg');
+    }
+
+    #lunch {
+      background-image: url('lunch.jpg');
+    }
+
+    #dinner {
+      background-image: url('dinner.jpg');
+    }
+  </style>
+</head>
+<body>
+
+  <div id="breakfast" class="menu">
+    <h2>Breakfast Menu</h2>
+    <ul>
+      <li>Pancakes with syrup</li>
+      <li>Scrambled eggs</li>
+      <li>Fresh fruit bowl</li>
+      <li>Orange juice</li>
+    </ul>
+  </div>
+
+  <div id="lunch" class="menu">
+    <h2>Lunch Menu</h2>
+    <ul>
+      <li>Grilled chicken sandwich</li>
+      <li>Caesar salad</li>
+      <li>Tomato soup</li>
+      <li>Iced tea</li>
+    </ul>
+  </div>
+
+  <div id="dinner" class="menu">
+    <h2>Dinner Menu</h2>
+    <ul>
+      <li>Steak with mashed potatoes</li>
+      <li>Steamed vegetables</li>
+      <li>Garlic bread</li>
+      <li>Red wine</li>
+    </ul>
+  </div>
+
+</body>
+</html>
